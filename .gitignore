@@ -1,0 +1,68 @@
+# --- Python Cache ---
+# Python'un hızlandırma için oluşturduğu derlenmiş dosyalar
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Sanal Ortam (Virtual Environment) ---
+# Projenizin bağımlılıklarını içeren ve her makinede farklı olabilen klasörler
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# --- IDE ve Editör Ayarları ---
+# Kod editörünüze özel, takım arkadaşlarınızı ilgilendirmeyen ayar dosyaları
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- Hassas Bilgiler ve Konfigürasyon ---
+# ASLA GITHUB'A GÖNDERMEYİN! API anahtarları, şifreler vb. içerir.
+.env
+.env.*
+config.ini
+secrets.yml
+*.pem
+*.key
+
+# --- Log Dosyaları ---
+# Uygulamanın çalışırken oluşturduğu loglar
+*.log
+logs/
+
+# --- Veri Setleri ve Müzik Dosyaları ---
+# Genellikle büyük boyutludurlar ve Git için uygun değillerdir.
+# Bu bölümü kendi projenize göre özelleştirin.
+data/
+*.csv
+*.json
+*.db
+*.sqlite3
+*.mp3
+*.wav
+*.flac
+
+# --- Makine Öğrenmesi Modelleri ve Çıktılar ---
+# Eğitilmiş modeller ve serileştirilmiş dosyalar
+models/
+*.pkl
+*.joblib
+*.h5
+*.pth
+*.onnx
+
+# --- Dağıtım ve Paketleme Dosyaları ---
+build/
+dist/
+*.egg-info/
+downloads/
+eggs/
+
+# --- İşletim Sistemi Dosyaları ---
+# macOS ve Windows'un otomatik oluşturduğu sistem dosyaları
+.DS_Store
+Thumbs.db
