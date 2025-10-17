@@ -66,3 +66,6 @@ eggs/
 # macOS ve Windows'un otomatik oluşturduğu sistem dosyaları
 .DS_Store
 Thumbs.db
+
+# --- Dataset --
+recommendation-dataset/
