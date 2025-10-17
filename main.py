@@ -1,1 +1,5 @@
-print("sa")
+from utils import *
+
+
+printTest()
+
